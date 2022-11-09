@@ -703,7 +703,15 @@ p {
 }
 
 .tight-width-whitespace {
-    color: #424242;
+    color: #424242!important;
+    font-size: 22px;
+    line-height: 1.2em;
+    max-width: 600px;
+    margin: auto auto auto auto;
+}
+
+.toto {
+color: #424242!important;
     font-size: 22px;
     line-height: 1.2em;
     max-width: 600px;
