@@ -280,6 +280,8 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -585,7 +587,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: 45vh;
     margin: 0 auto;
 }
 
@@ -623,7 +625,7 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 255, 255)!important;
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -880,6 +882,26 @@ h4 {
     background-image: url("img/image-de-presentation.avif");
 }
 
+.text_bloc-2 {
+    font-size: 20px;
+    line-height: 1em;
+    max-width: 800px;
+    margin: auto auto 27px auto;
+}
+.text_bloc-2-citation{
+    font-size: 19px;
+    line-height: 1em;
+}
+.text_bloc-2-author {
+    font-size: 18px;
+    line-height: 1em;
+}
+.text_bloc-4 {
+    font-size: 20px;
+    line-height: 1em;
+}
+
+
 
 @media (max-width: 1024px) {
     .nav .navbar-nav {
@@ -1093,17 +1115,22 @@ h4 {
         margin-top: 30px;
     }
 
-    .img_titre {
-        width : 100%; 
-        height : auto;
+    .text_bloc-2 {
+        font-size: 20px;
+        line-height: 1em;
+        margin-bottom: 0;
     }
-    .img_citation {
-        width : 100%; 
-        height : auto;
+    .text_bloc-2-citation{
+        font-size: 19px;
+        line-height: 1em;
     }
-    .img_title2 {
-        width : 100%; 
-        height : auto;
+    .text_bloc-2-author {
+        font-size: 18px;
+        line-height: 1em;
+    }
+    .text_bloc-4 {
+        font-size: 20px;
+        line-height: 1em;
     }
 
     form {
